@@ -1,6 +1,7 @@
 package edu.stanford.rsl.tutorial.dmip;
 
 import java.util.ArrayList;
+
 import java.util.Iterator;
 import java.util.TreeMap;
 import java.util.Map.Entry;
