@@ -98,7 +98,7 @@ public class Grid2D extends NumericGrid implements Transformable {
 	}
 
 	
-	public static double[] indexToPhysical(double i, double j) {
+	public double[] indexToPhysical(double i, double j) {
 		return new double[] {
 				i * this.spacing[0] + this.origin[0],
 				j * this.spacing[1] + this.origin[1]
@@ -106,7 +106,7 @@ public class Grid2D extends NumericGrid implements Transformable {
 	}
 	
 	
-	public static double[] physicalToIndex(double x, double y) {
+	public double[] physicalToIndex(double x, double y) {
 		return new double[] {
 				(x - this.origin[0]) / this.spacing[0],
 				(y - this.origin[1]) / this.spacing[1]
