@@ -1,5 +1,6 @@
 package edu.stanford.rsl.tutorial.dmip;
 import java.util.ArrayList;
+
 import edu.stanford.rsl.conrad.data.numeric.Grid1D;
 import edu.stanford.rsl.conrad.data.numeric.Grid1DComplex;
 import edu.stanford.rsl.conrad.data.numeric.Grid2D;
